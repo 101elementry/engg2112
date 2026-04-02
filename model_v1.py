@@ -12,10 +12,10 @@ SEED = 42
 
 # Load dataset
 df = pd.read_csv(
-    "/Users/connorwherry/Library/Mobile Documents/com~apple~CloudDocs/Study/Sem1Yr3/ENGG2112/engg2112/nsw_road_crash_data_merged_removed_duplicates.csv",
+    "/Users/connorwherry/Library/Mobile Documents/com~apple~CloudDocs/Study/Sem1Yr3/ENGG2112/engg2112/joe/project/data/nsw_road_crash_data_merged_removed_duplicates.csv",
     low_memory=False
 )
-
+# df = pd.read_csv()
 # Remove rows with missing target
 df = df.dropna(subset=['Degree of crash'])
 
